@@ -9,7 +9,23 @@
   </head>
 
   <body>
+
+    <nav>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/main'>Main Page</a></li>
+        <li><a href='/private'>Private Page</a></li>
+      </ul>
+    </nav>
+
     <a href='/signup'>Signup</a>
+
+    <a href='/login'>Login</a>
+
+    <form action='/logout' method='POST'>
+      <button type='submit'>Logout</button>
+    </form>
+
     {{{body}}}
 
     <script src='/js/script.js'></script>
